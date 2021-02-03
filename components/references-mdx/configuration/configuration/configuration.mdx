@@ -446,6 +446,7 @@ This is not recommended because it could lead to search engines indexing two dif
   "redirects": [
     { "source": "/me", "destination": "/profile.html" },
     { "source": "/user", "destination": "/api/user", "permanent": false },
+    { "source": "/wp-content/image/(.*)", "destination": "https://storage.googleapis.com/$1" },
     { "source": "/view-source", "destination": "https://github.com/vercel/vercel" }
   ]
 }`}</Code>
